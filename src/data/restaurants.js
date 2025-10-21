@@ -94,8 +94,8 @@ export const data = [
         category: "Chinese",
         image: "https://i.pinimg.com/236x/0d/6f/ec/0d6feccbd185e8ec7e99fb89dcdecdf5.jpg",
         menu: [
-            { id: 901, name: "Chicken Manchurian", price: 550 },
-            { id: 902, name: "Egg Fried Rice", price: 400 }
+            { id: 901, name: "Chicken Manchurian", price: 550, image: "https://i.pinimg.com/736x/d2/26/09/d22609efc42984ac31068cafc8f9427b.jpg" },
+            { id: 902, name: "Egg Fried Rice", price: 400, image: "https://i.pinimg.com/736x/69/a1/b6/69a1b683131c3b3d270adfd478ae0bfc.jpg" }
         ]
     },
     {
@@ -105,8 +105,8 @@ export const data = [
         category: "Italian",
         image: "https://i.pinimg.com/236x/5e/7f/57/5e7f57e74c277b14e7c3ae337de1917a.jpg",
         menu: [
-            { id: 1001, name: "Alfredo Pasta", price: 700 },
-            { id: 1002, name: "Spaghetti Bolognese", price: 750 }
+            { id: 1001, name: "Alfredo Pasta", price: 700, image: "https://i.pinimg.com/1200x/04/f4/9e/04f49ee67da37e9632d74daf3aa8b0e8.jpg" },
+            { id: 1002, name: "Spaghetti Bolognese", price: 750, image: "https://i.pinimg.com/1200x/e4/d5/e4/e4d5e403fc85e3555c8961b3bee84639.jpg" }
         ]
     },
     {
@@ -116,8 +116,8 @@ export const data = [
         category: "South Indian",
         image: "https://i.pinimg.com/236x/fd/b9/de/fdb9de9f6a53bccd79daf77fb2d1c3b4.jpg",
         menu: [
-            { id: 1101, name: "Masala Dosa", price: 300 },
-            { id: 1102, name: "Plain Dosa", price: 250 }
+            { id: 1101, name: "Masala Dosa", price: 300, image: "https://i.pinimg.com/1200x/d4/d0/55/d4d05510d95f793fd27855bbe5851f20.jpg" },
+            { id: 1102, name: "Plain Dosa", price: 250, image: "https://i.pinimg.com/736x/32/33/44/3233442e50ff115f709a7c61748c4e61.jpg" }
         ]
     },
     {
@@ -127,8 +127,8 @@ export const data = [
         category: "Fast Food",
         image: "https://i.pinimg.com/236x/21/eb/73/21eb73a15dd569bda6b1e4953b4c46aa.jpg",
         menu: [
-            { id: 1201, name: "Chicken Shawarma", price: 350 },
-            { id: 1202, name: "Beef Wrap", price: 400 }
+            { id: 1201, name: "Chicken Shawarma", price: 350, image: "https://i.pinimg.com/1200x/8d/b5/dd/8db5ddfd1828d38ddbb00a0f628d0b3a.jpg" },
+            { id: 1202, name: "Beef Wrap", price: 400, image: "https://i.pinimg.com/736x/34/81/6d/34816d73eda94f568dc06087805b101f.jpg" }
         ]
     },
     {
@@ -138,8 +138,8 @@ export const data = [
         category: "Street Food",
         image: "https://i.pinimg.com/236x/d2/07/41/d20741c665ecdc0fcd694f42a0e6ad39.jpg",
         menu: [
-            { id: 1301, name: "Anda Shami", price: 120 },
-            { id: 1302, name: "Beef Bun Kabab", price: 150 }
+            { id: 1301, name: "Anda Shami", price: 120, image: "https://i.pinimg.com/1200x/23/3f/dc/233fdc12ef28cdb6650d0a56d5f8bb19.jpg" },
+            { id: 1302, name: "Beef Bun Kabab", price: 150, image: "https://i.pinimg.com/1200x/cf/4e/e2/cf4ee2bfc1dfd819da7dbe58b07cc416.jpg" }
         ]
     },
     {
@@ -149,8 +149,8 @@ export const data = [
         category: "Desi",
         image: "https://i.pinimg.com/236x/31/03/d3/3103d31a99df0319e74dfa949cdeb2e1.jpg",
         menu: [
-            { id: 1401, name: "Garlic Naan", price: 70 },
-            { id: 1402, name: "Butter Chicken", price: 650 }
+            { id: 1401, name: "Garlic Naan", price: 70, image: "https://i.pinimg.com/1200x/1c/a6/c1/1ca6c100275644142a7e9efb099a59da.jpg" },
+            { id: 1402, name: "Butter Chicken", price: 650, image: "https://i.pinimg.com/1200x/77/c2/2f/77c22f4e6d82b4dd23ea3bb08c2023bb.jpg" }
         ]
     },
     {
@@ -160,8 +160,8 @@ export const data = [
         category: "Healthy",
         image: "https://i.pinimg.com/236x/db/40/2d/db402da6435c390031d551ff13eabb13.jpg",
         menu: [
-            { id: 1501, name: "Greek Salad", price: 400 },
-            { id: 1502, name: "Grilled Chicken Bowl", price: 500 }
+            { id: 1501, name: "Greek Salad", price: 400, image: "https://i.pinimg.com/736x/6e/03/53/6e035330aa29714274443e571152f577.jpg" },
+            { id: 1502, name: "Grilled Chicken Bowl", price: 500, image: "https://i.pinimg.com/1200x/d1/59/0b/d1590bd768f90e496d2f68676ea30919.jpg" }
         ]
     },
     {
@@ -171,8 +171,8 @@ export const data = [
         category: "Dessert",
         image: "https://i.pinimg.com/236x/04/82/5e/04825e4f9adf2863faee662a175a9802.jpg",
         menu: [
-            { id: 1601, name: "Chocolate Cone", price: 150 },
-            { id: 1602, name: "Sundae Cup", price: 250 }
+            { id: 1601, name: "Chocolate Cone", price: 150, image: "https://i.pinimg.com/736x/8c/75/44/8c7544c95291c2350cd6cf2068168170.jpg" },
+            { id: 1602, name: "Sundae Cup", price: 250, image: "https://i.pinimg.com/1200x/98/f7/aa/98f7aad979087bb30765ead184994595.jpg" }
         ]
     },
     {
@@ -182,8 +182,8 @@ export const data = [
         category: "Middle Eastern",
         image: "https://i.pinimg.com/236x/1d/ff/c2/1dffc2832b74209d708f1bd3772d22e1.jpg",
         menu: [
-            { id: 1701, name: "Falafel Wrap", price: 300 },
-            { id: 1702, name: "Hummus Plate", price: 250 }
+            { id: 1701, name: "Falafel Wrap", price: 300, image: "https://i.pinimg.com/736x/90/3e/98/903e98f535a82798cb6fa0b8517c5347.jpg" },
+            { id: 1702, name: "Hummus Plate", price: 250, image: "https://i.pinimg.com/736x/44/19/66/4419669e735a0cd84ca8069173b61185.jpg" }
         ]
     },
     {
@@ -193,8 +193,8 @@ export const data = [
         category: "Dessert",
         image: "https://i.pinimg.com/474x/a0/b7/46/a0b74697bc48abdf6f02e4825c60f681.jpg",
         menu: [
-            { id: 1801, name: "Nutella Waffle", price: 450 },
-            { id: 1802, name: "Strawberry Waffle", price: 480 }
+            { id: 1801, name: "Nutella Waffle", price: 450, image: "https://i.pinimg.com/736x/74/d5/29/74d529960f0a094ded769c6f77e37877.jpg" },
+            { id: 1802, name: "Strawberry Waffle", price: 480, image: "https://i.pinimg.com/736x/d9/9f/d6/d99fd600fc0a145f7465cc329b4ae733.jpg" }
         ]
     },
     {
@@ -204,8 +204,8 @@ export const data = [
         category: "Western",
         image: "https://i.pinimg.com/236x/28/18/d4/2818d49373c03cbdf3adc794c91bf90a.jpg",
         menu: [
-            { id: 1901, name: "Ribeye Steak", price: 1200 },
-            { id: 1902, name: "T-Bone Steak", price: 1400 }
+            { id: 1901, name: "Ribeye Steak", price: 1200, image: "https://i.pinimg.com/736x/bc/0c/6f/bc0c6fb16d236efee27dd13ee3c55005.jpg" },
+            { id: 1902, name: "T-Bone Steak", price: 1400, image: "https://i.pinimg.com/1200x/3c/a3/82/3ca3824b50c52ad8b4829099ca6ef6b9.jpg" }
         ]
     },
     {
@@ -215,8 +215,8 @@ export const data = [
         category: "Desi",
         image: "https://i.pinimg.com/474x/e0/32/d9/e032d9bbcb426ff543b9c572a1963bc8.jpg",
         menu: [
-            { id: 2001, name: "Mutton Biryani", price: 450 },
-            { id: 2002, name: "Plain Rice with Raita", price: 200 }
+            { id: 2001, name: "Mutton Biryani", price: 450, image: "https://i.pinimg.com/736x/e1/e9/a9/e1e9a9bb4458f6cd0f0aba5fe4994f2a.jpg" },
+            { id: 2002, name: "Plain Rice with Raita", price: 200, image: "https://i.pinimg.com/736x/de/55/69/de556956b53b2d8441a74584f557f820.jpg" }
         ]
     }
 ];
