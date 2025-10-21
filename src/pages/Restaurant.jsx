@@ -29,11 +29,11 @@ export default function Restaurant({ restaurants, setCart, cart }) {
       {restaurant && (
         <div className="max-w-5xl mx-auto space-y-8">
           {/* Header */}
-          <div className="bg-gray-800 rounded-2xl shadow-lg p-6 flex flex-col md:flex-row gap-6">
+          <div className="bg-gray-800 rounded-xl shadow-lg p-4 flex flex-col md:flex-row gap-6">
             <img
               src={restaurant.image}
               alt={restaurant.name}
-              className="w-48 h-48 rounded-xl object-cover"
+              className="w-50 h-50 sm:w-58 sm:h-58 object-cover object-center rounded-lg"
             />
             <div className="flex flex-col justify-center">
               <p className="bg-gray-700 px-3 py-1 text-sm rounded-full w-fit text-gray-300">

@@ -27,7 +27,7 @@ export default function Filters({ searchRestaurant, allRestaurants, setRestauran
   };
 
   return (
-    <aside className="bg-gray-900 text-gray-100 shadow-sm p-5 md:p-6 md:w-64 w-[98%] mx-auto md:fixed md:top-26 md:bottom-0 rounded-xl md:rounded-r-xl">
+    <aside className="bg-gray-900 text-gray-100 shadow-sm p-5 md:p-6 md:w-64 w-[96%] mx-auto md:fixed md:top-26 md:bottom-0 rounded-xl md:rounded-r-xl">
       <h2 className="text-lg font-semibold mb-4 text-gray-200 border-b pb-2">
         Filters
       </h2>

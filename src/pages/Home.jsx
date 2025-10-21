@@ -27,7 +27,7 @@ export default function Home({ restaurants, setRestaurants }) {
   };
 
   return (
-    <div className="flex flex-col md:flex-row pt-26 pb-12 min-h-screen bg-gray-800 text-gray-100">
+    <div className="flex flex-col md:flex-row pt-22 md:pt-26 pb-12 min-h-screen bg-gray-800 text-gray-100">
 
       {/* Sidebar */}
       <Filters
@@ -37,7 +37,7 @@ export default function Home({ restaurants, setRestaurants }) {
       />
 
       {/* Main */}
-      <main className="flex-1 px-5 md:px-10 md:pl-74">
+      <main className="flex-1 px-4 md:px-10 md:pl-74 mt-4 md:mt-0">
         <div className="flex justify-center mb-5">
           <input
             type="text"
@@ -48,7 +48,7 @@ export default function Home({ restaurants, setRestaurants }) {
           />
         </div>
 
-        <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+        <h2 className="text-2xl font-semibold mb-4 text-gray-100">
           All Restaurants
         </h2>
 
