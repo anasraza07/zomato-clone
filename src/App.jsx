@@ -19,7 +19,7 @@ function App() {
         <ScrollToTop />
         <Navbar cart={cart} />
         <Routes>
-          <Route path="/" element={
+          <Route path="/zomato-clone" element={
             <Home restaurants={restaurants} setRestaurants={setRestaurants} />
           } />
 
