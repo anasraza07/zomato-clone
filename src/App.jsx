@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar"
 import Home from "./pages/Home"
 import Restaurant from "./pages/Restaurant"
@@ -15,11 +15,11 @@ function App() {
 
   return (
     <div className="">
-      <BrowserRouter>
+      <Router>
         <ScrollToTop />
         <Navbar cart={cart} />
         <Routes>
-          <Route path="/zomato-clone" element={
+          <Route path="/" element={
             <Home restaurants={restaurants} setRestaurants={setRestaurants} />
           } />
 
@@ -31,7 +31,7 @@ function App() {
             <Cart cart={cart} setCart={setCart} price={price} setPrice={setPrice} />
           } />
         </Routes>
-      </BrowserRouter>
+      </Router>
     </div>
   )
 }
