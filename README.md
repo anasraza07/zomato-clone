@@ -1,14 +1,37 @@
-# React + Vite
+# 🍽️ Restaurant App
+A modern Restaurant Listing and Food Ordering App built with React. You can browse restaurants, view their menus, add or remove dishes from your cart, and see your total bill, all with a smooth and responsive design.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🧾 Short Description
+This app displays a list of restaurants on the homepage.
+Users can **search and filter** restaurants easily.
+Clicking on any restaurant opens its menu page, where users can:
+- 🍛 View available dishes
+- 🛒 Add or remove items from the cart
+- 💰 See the total bill update in real-time
 
-Currently, two official plugins are available:
+The app is optimized for all devices with clean navigation and fast loading.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧠 Tech Stack
+- **ReactJS (Vite)** – Component-based UI
+- **Tailwind CSS** – Modern, responsive styling
+- **React Router** (HashRouter) – For seamless navigation on GitHub Pages
+- **JavaScript (ES6+)** – Logic and interactivity
+- **GitHub Pages** – Static site deployment
 
-## Expanding the ESLint configuration
+## 🚀 Live Demo
+🔗 [View Live App](https://anasraza07.github.io/zomato-clone)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Key Features
+- 🍴 Browse a list of restaurants
+- 🔍 Search and filter by restaurant name or category
+- 📋 View restaurant-specific dishes
+- 🛒 Add or remove items from the cart
+- 💵 Dynamic total bill calculation
+- 📱 Fully responsive layout
+- ⚡ HashRouter support for smooth static hosting
 
-"# zomato-clone" 
+## 💡 What I Improved
+✅ Enhanced TailwindCSS design and responsiveness\
+✅ Switched from BrowserRouter to HashRouter for GitHub Pages compatibility\
+✅ Cleaned up routing and navigation bugs\
+✅ Optimized UI for a faster and smoother experience
